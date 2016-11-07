@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.mpcharttest1.MainActivity">
+
+    <Button
+        android:id="@+id/lineChart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="控制图" />
+
+    <Button
+        android:id="@+id/barChart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="柱状图" />
+
+
+    <Button
+        android:id="@+id/dataBase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="排列图" />
+
+</LinearLayout>
